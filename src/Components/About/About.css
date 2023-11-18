@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.about-section {
+  background: var(--second-bg-color);
+  height: 100vh;
+  align-items: center;
+}
+
+.about-section h1 {
+  padding: 5rem 0 2.5rem 0;
+  font-size: 3.8rem;
+  color: var(--neon-color);
+}
+
+.laptop {
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  top: 108%;
+  left: 3%;
+  color: var(--neon-color) !important;
+  transform: rotate(-30deg);
+  opacity: 0.15;
+}
+
+@media (max-width: 600px) {
+  .about-section {
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .about-section {
+    padding: 10px 50px;
+    width: 100%;
+  }
+
+  .about-section h1 {
+    padding: 7rem 0 5rem 0;
+    font-size: 5rem;
+  }
+}
